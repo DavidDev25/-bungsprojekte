@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Picker Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./numberGuesser.js" defer></script>
+</head>
+
+<body>
+    <section id="game">
+        <div class="gameContainer">
+            <h1>Number Guesser Game | Errate die Zahl</h1>
+            <div class="gameContainer_input">
+                <input type="text" id="guessInput" placeholder="Enter your guess ( 1-100 )" />
+                <button id="guessButton" onclick="guessNumber()">Guess</button>
+            </div>
+            <div class="gameContainer_Result">
+                <div id="result"></div>
+                <div id="attempts"></div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
