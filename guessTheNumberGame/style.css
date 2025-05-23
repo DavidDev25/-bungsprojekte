@@ -37,4 +37,10 @@ body {
   margin-block: 2rem;
   text-align: center;
   color: red;
+}
+
+#attempts {
+  margin-block: 2rem;
+  text-align: center;
+  color: blueviolet;
 }/*# sourceMappingURL=style.css.map */
